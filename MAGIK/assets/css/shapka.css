@@ -1,0 +1,179 @@
+body {
+
+    font-family: "Soledago", sans-serif;
+    font-size: 23px;
+    line-height: 1.3;
+    background-color: rgb(243, 227, 227);
+    margin: 0;
+  }
+
+*,
+*::before,
+*::after
+
+  {
+    box-sizing: border box;
+  }
+  
+  .header  {
+    
+    width: 100%;
+    height: 100px;
+    background-color: black;
+    margin: 0 auto;
+    position: fixed;
+    z-index: 100;
+    
+
+  }
+  
+
+
+
+
+
+
+
+  .logo {
+    
+    color: white;
+    font-size: 46px;
+    margin: 0 auto;
+    margin-left: 48%;
+    text-decoration: none;
+    position: fixed;
+    font-family: "Soledago";
+
+
+
+}
+  .container {
+    background-color: rgb(5, 5, 5);
+    width: 100%;
+    height: 55px;
+    
+    margin: 0 auto;
+    
+    position: fixed;
+    z-index: 100;
+  }
+
+  .intro {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width:100%;
+        height: 117vh;
+        margin-top: 0;
+        
+      
+       
+}
+  .intro_title {
+    font-family: arial black;
+    font-size: 60px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 1.1;
+    text-decoration: none;
+
+  }
+  .intro_title1{
+    color: black;
+    font-family: arial black;
+    font-size: 30px;
+    text-align: center;
+    text-decoration: none;
+    
+  }
+  
+  h2,h3 {
+  color: black;
+  font-family: arial black;
+  font-size: 36px;
+  margin: 0;
+  
+  
+}
+
+
+.tooltip {
+  position: absolute;
+  top: calc(100% + 10px);
+  left: 50%;
+  transform: translateX(-50%);
+  display: none;
+  padding: 390px;
+  background-color: rgb(2, 2, 2);
+  border: 0px solid #ccc;
+  border-radius: 0px;
+  z-index: 1;
+  font-size: 14px;
+  line-height: 1.5;
+  transition-duration: 10s;
+  text-align: center;
+  
+}
+
+
+p {
+  vertical-align: top;
+  text-decoration: none;
+}
+
+
+.one {
+  vertical-align: top;
+}
+
+.menu {
+  padding-top: 120%;
+  margin-left: 2%;
+  position: relative;
+  
+}
+
+
+.poisk { 
+  padding-right: 10px ;
+  margin-left: 85%;
+  
+}
+
+.user {
+  padding-right: 10px ;
+  
+
+}
+
+.favorite {
+  padding-right: 10px ;
+  
+}
+
+.korzina {
+  padding-left: 2px ;
+  
+}
+
+.seredina {
+  padding-top: 9px;
+}
+
+.begstroka {
+  padding-top: 0,5px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+::-webkit-scrollbar {
+  position: absolute;
+  width: 14px;
+  background: 0 0
+}
+::-webkit-scrollbar-thumb {
+  border: 5px solid transparent;
+  background-clip: padding-box;
+  border-radius: 15px;
+  background-color: rgb(255, 255, 255)
+}

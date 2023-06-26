@@ -1,0 +1,206 @@
+.pl1 {
+  position: relative;
+  overflow: auto;
+  display: flex;
+  justify-content: space-between;
+
+}
+.pl1:hover::after {
+  font-family: "Soledago", sans-serif;
+  content: "Джинсовый сарафан            s m l xl\a 1900 ₽   ";
+  white-space: pre-wrap;
+  
+  position: absolute;
+  top: 10;
+  left: 0;
+  background-color: none;
+  color: white;
+  padding-top: 460px;
+  
+}
+
+.pl2 {
+  position: relative;
+}
+.pl2:hover::after {
+  font-family: "Soledago", sans-serif;
+  content: "Платье с воротником              s m l xl\a 2790 ₽   ";
+  white-space: pre-wrap;
+  
+  position: absolute;
+  top: 10;
+  left: 0;
+  background-color: none;
+  color: white;
+  padding-top: 460px;
+  
+}
+.pl3 {
+  position: relative;
+}
+.pl3:hover::after {
+  font-family: "Soledago", sans-serif;
+  content: "Кружевной сарафан                        s m\a 1200 ₽   ";
+  white-space: pre-wrap;
+  
+  position: absolute;
+  top: 10;
+  left: 0;
+  background-color: none;
+  color: #ffffff;
+  padding-top: 465px;
+}
+
+.pl4 {
+  position: relative;
+}
+.pl4:hover::after {
+  font-family: "Soledago", sans-serif;
+  content: "Платье с декоративным вырезом\a 2790 ₽                                                        m l xl ";
+  white-space: pre-wrap;
+  
+  position: absolute;
+  top: 10;
+  left: 0;
+  background-color: none;
+  color: white;
+  padding-top: 465px;
+  
+}
+
+
+.top1 {
+  position: relative;
+ 
+
+}
+.top1:hover::after {
+  font-family: "Soledago", sans-serif;
+  content: "Топ на тонких бретелях       s m l xl\a 2100 ₽   ";
+  white-space: pre-wrap;
+  
+  position: absolute;
+  top: 10;
+  left: 0;
+  background-color: none;
+  color: white;
+  padding-top: 460px;
+  
+}
+.top2 {
+  position: relative;
+}
+.top2:hover::after {
+  font-family: "Soledago", sans-serif;
+  content: "Топ на пуговицах                       s m l xl\a 1790 ₽   ";
+  white-space: pre-wrap;
+  
+  position: absolute;
+  top: 10;
+  left: 0;
+  background-color: none;
+  color: white;
+  padding-top: 460px;
+  
+}
+.top3 {
+  position: relative;
+}
+.top3:hover::after {
+  font-family: "Soledago", sans-serif;
+  content: "Корсетный топ                                       s m\a 3200 ₽   ";
+  white-space: pre-wrap;
+  
+  position: absolute;
+  top: 10;
+  left: 0;
+  background-color: none;
+  color: #ffffff;
+  padding-top: 465px;
+  
+}
+
+.top4 {
+  position: relative;
+}
+.top4:hover::after {
+  font-family: "Soledago", sans-serif;
+  content: "Льняной топ                                                  S\a 3790 ₽  ";
+  white-space: pre-wrap;
+  
+  position: absolute;
+  top: 10;
+  left: 0;
+  background-color: none;
+  color: white;
+  padding-top: 465px;
+  
+}
+
+.shoes1 {
+  position: relative;
+ 
+
+}
+.shoes1:hover::after {
+  font-family: "Soledago", sans-serif;
+  content: "Ботильоны                                 36 37 38 39\a 19000 ₽   ";
+  white-space: pre-wrap;
+  
+  position: absolute;
+  top: 10;
+  left: 0;
+  background-color: none;
+  color: white;
+  padding-top: 460px;
+  
+}
+.shoes2 {
+  position: relative;
+}
+.shoes2:hover::after {
+  font-family: "Soledago", sans-serif;
+  content: "Туфли на высокой платформе \a 10 000 ₽                                                  38 39 40  ";
+  white-space: pre-wrap;
+  
+  position: absolute;
+  top: 10;
+  left: 0;
+  background-color: none;
+  color: white;
+  padding-top: 460px;
+  
+}
+.shoes3 {
+  position: relative;
+}
+.shoes3:hover::after {
+  font-family: "Soledago", sans-serif;
+  content: "Туфли с закрытым носком           36 \a 11200 ₽   ";
+  white-space: pre-wrap;
+  
+  position: absolute;
+  top: 10;
+  left: 0;
+  background-color: none;
+  color: #ffffff;
+  padding-top: 465px;
+  
+}
+
+.shoes4 {
+  position: relative;
+}
+.shoes4:hover::after {
+  font-family: "Soledago", sans-serif;
+  content: "Оксфорды                                   36 37 38 39 \a 7990 ₽  ";
+  white-space: pre-wrap;
+  
+  position: absolute;
+  top: 10;
+  left: 0;
+  background-color: none;
+  color: white;
+  padding-top: 465px;
+  
+}

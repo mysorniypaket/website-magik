@@ -1,0 +1,344 @@
+  
+  
+  
+ 
+ @font-face {
+    font-family: "Soledago";
+    font-style: normal;
+    font-weight: 400;
+    /* Браузер сначала попробует найти шрифт локально */
+    src: local("Soledago"),
+         /* Если не получилось, загрузит woff2 
+         url("C:\Users\перпендикуляр\Desktop\курсач\MAGIK\fonts") format("ttf") 
+         */        
+  }
+
+  @font-face {
+    font-family: "Secular One";
+    font-style: normal;
+    font-weight: 400;
+    /* Браузер сначала попробует найти шрифт локально */
+    src: local("Secular One"),
+         /* Если не получилось, загрузит woff2 
+         url("C:\Users\перпендикуляр\Desktop\курсач\MAGIK\fonts") format("ttf") 
+         */        
+  }
+
+  
+
+  .header  {
+    
+    width: 100%;
+    height: 100px;
+    background-color: black;
+    margin: 0 auto;
+    position: fixed;
+    z-index: 100;
+    
+
+  }
+  .logo {
+    
+    color: white;
+    font-size: 46px;
+    margin: 0 ;
+    margin-left: 48%;
+    text-decoration: none;
+    position: fixed;
+    font-family: "Soledago", sans-serif;
+
+
+
+}
+  .container {
+    background-color: black;
+    width: 100%;
+    height: 55px;
+    
+    margin: 0 auto;
+    
+    position: fixed;
+    z-index: 100;
+  }
+  .menu {
+  
+    margin-left: 2%;
+    
+  }
+  
+  .poisk { 
+    padding-right: 10px ;
+    margin-left: 85%;
+  }
+  
+  .user {
+    padding-right: 10px ;
+  
+  }
+  
+  .favorite {
+    padding-right: 10px ;
+  
+  }
+  
+  .korzina {
+    padding-left: 2px ;
+    
+  }
+
+.body {
+    font-family: "Soledago", sans-serif;
+    font-size: 23px;
+    line-height: 1.3;
+    background-color: rgb(234,229,225);
+    margin: 0;
+}
+
+ 
+ 
+  
+  
+  
+  
+  /* account */
+   @import url('https://fonts.googleapis.com/css?family=Raleway:400,700');
+
+   * {
+       box-sizing: border-box;
+       margin: 0;
+       padding: 0;	
+       font-family: Raleway, sans-serif;
+   }
+   
+   body {
+       background: linear-gradient(90deg, #000000, #C7C5F4);		
+   }
+   
+   .container1 {
+       display: flex;
+       align-items: center;
+       justify-content: center;
+       min-height: 100vh;
+       background-color:rgb(234,229,225);
+   }
+   
+   .screen {		
+       background: linear-gradient(90deg, #2b0e23, #C7C5F4);		
+       position: relative;	
+       height: 600px;
+       width: 360px;	
+       box-shadow: 0px 0px 24px #000000;
+   }
+   
+   .screen__content {
+       z-index: 1;
+       position: relative;	
+       height: 100%;
+   }
+   
+   .screen__background {		
+       position: absolute;
+       top: 0;
+       left: 0;
+       right: 0;
+       bottom: 0;
+       z-index: 0;
+       -webkit-clip-path: inset(0 0 0 0);
+       clip-path: inset(0 0 0 0);	
+   }
+   
+   .screen__background__shape {
+       transform: rotate(45deg);
+       position: absolute;
+   }
+   
+   .screen__background__shape1 {
+       height: 520px;
+       width: 520px;
+       background: #FFF;	
+       top: -50px;
+       right: 120px;	
+       border-radius: 0 72px 0 0;
+   }
+   
+   .screen__background__shape2 {
+       height: 220px;
+       width: 220px;
+       background: linear-gradient(270deg, #c2abcf, #2b0e23);	
+       top: -172px;
+       right: 0;	
+       border-radius: 32px;
+   }
+   
+   .screen__background__shape3 {
+       height: 540px;
+       width: 190px;
+       background: linear-gradient(270deg, #2b0e23, #c2abcf);
+       top: -24px;
+       right: 0;	
+       border-radius: 32px;
+   }
+   
+   .screen__background__shape4 {
+       height: 400px;
+       width: 200px;
+       background: linear-gradient(270deg, #ffffff, #ffffff);	
+       top: 420px;
+       right: 50px;	
+       border-radius: 60px;
+   }
+   
+   .register {
+       width: 320px;
+       padding: 30px;
+       padding-top: 18px;
+   }
+   
+   .register__field {
+       padding: 20px 0px;	
+       position: relative;	
+   }
+   
+   .register__icon {
+       position: absolute;
+       top: 30px;
+       color: #ffffff;
+       padding-bottom: 5px;
+   }
+   
+   .register__input {
+       border-radius: 10px;
+       border-bottom: 2px solid #58588f;
+       background: none;
+       padding: 10px;
+       padding-left: 24px;
+       font-weight: 700;
+       width: 75%;
+       transition: .2s;
+       border: 1px solid #5c1163
+   }
+   
+   .register__input:active,
+   .register__input:focus,
+   .register__input:hover {
+       outline: none;
+       border-bottom-color: #6A679E;
+   }
+   
+   .register__submit {
+       background: #fff;
+       font-size: 16px;
+       margin-top: 30px;
+       padding: 16px 20px;
+       border-radius: 26px;
+       border: 1px solid #D4D3E8;
+       text-transform: uppercase;
+       font-weight: 700;
+       display: flex;
+       align-items: center;
+       width: 100%;
+       color: #70489d;
+       box-shadow: 0px 2px 2px #5C5696;
+       cursor: pointer;
+       transition: .2s;
+   }
+   
+   
+   .register__submit:active,
+   .register__submit:focus,
+   .register__submit:hover {
+       border-color: #6A679E;
+       outline: none;
+   }
+   
+   .button__icon {
+       font-size: 24px;
+       margin-left: auto;
+       color: #7875B5;
+       
+   }
+
+
+   
+   .social-register {	
+       font-size: 14px;
+       
+       position: absolute;
+       height: 140px;
+       width: 160px;
+       text-align: center;
+       bottom: 0px;
+       right: 0px;
+       color: #fff;
+   }
+   h3 {
+    font-family:Arial, Helvetica, sans-serif;
+    color: #000000;
+   }
+   
+   .social-icons {
+       display: flex;
+       align-items: center;
+       justify-content: center;
+   }
+   
+   .social-register__icon {
+       padding: 20px 10px;
+       color: #fff;
+       text-decoration: none;	
+       text-shadow: 0px 0px 8px #7875B5;
+   }
+   
+   .social-register__icon:hover {
+       transform: scale(1.5);	
+   }
+
+
+
+   .social-register1{
+       font-size: 40px; 
+       position: absolute;
+       height: 140px;
+       width: 160px;
+       text-align: center;
+       
+   }
+
+   h4 {
+    font-family: "Soledago", sans-serif;
+    text-align: left;
+    padding-top: 20px;
+    padding-left: 5px;
+    font-size: 40px;
+   }
+
+   .register__submit1 {
+    background: #fff;
+    font-size: 16px;
+    margin-top: 5px;
+    padding: 16px 20px;
+    border-radius: 26px;
+    border: 1px solid #b67bbb;
+    text-transform: uppercase;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    color: #70489d;
+    box-shadow: 0px 2px 2px #5C5696;
+    cursor: pointer;
+    transition: .2s;
+    
+}
+
+
+   .register__submit1:active,
+   .register__submit1:focus,
+   .register__submit1:hover {
+       border-color: #0f0b57;
+       outline: none;
+   }
+   
+
+
+   
